@@ -1,0 +1,27 @@
+
+ng serve --port 4300:
+    change port
+
+
+add path url to new component:
+    app-routing.module.ts:
+        Array routes add:
+          {
+            path:'disabled',
+            component: DisabledsComponent
+          }
+
+    app.modules.ts:
+        declarations:
+            nameComponent
+
+
+modified index with propuse change the html:
+    <router-outlet></router-outlet> 
+
+
+create new component:
+    ng g c nameComponent
+
+add ngmodels:
+    FormsModule
