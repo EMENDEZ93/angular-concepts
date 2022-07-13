@@ -14,6 +14,11 @@ import { NgswitchsComponent } from './ngswitchs/ngswitchs.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgsubmitsComponent } from './ngsubmits/ngsubmits.component';
+import { SenderComponent } from './inputs/sender/sender.component';
+import { ReceiverComponent } from './inputs/receiver/receiver.component';
+import { ParentComponent } from './output/parent/parent.component';
+import { ChildComponent } from './output/child/child.component';
+import { VidaComponent } from './ciclo/vida/vida.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { NgsubmitsComponent } from './ngsubmits/ngsubmits.component';
     NgswitchsComponent,
     NgforComponent,
     NgclassComponent,
-    NgsubmitsComponent
+    NgsubmitsComponent,
+    SenderComponent,
+    ReceiverComponent,
+    ParentComponent,
+    ChildComponent,
+    VidaComponent
   ],
   imports: [
     BrowserModule,
