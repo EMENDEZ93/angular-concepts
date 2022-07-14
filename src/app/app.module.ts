@@ -19,6 +19,11 @@ import { ReceiverComponent } from './inputs/receiver/receiver.component';
 import { ParentComponent } from './output/parent/parent.component';
 import { ChildComponent } from './output/child/child.component';
 import { VidaComponent } from './ciclo/vida/vida.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PipesComponent } from './pipes/pipes/pipes.component';
+import { CustompipePipe } from './pipes/custompipe.pipe';
+import { DirectiveaDirective } from './directives/directivea.directive';
+import { DirectiveComponent } from './directives/directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -37,12 +42,17 @@ import { VidaComponent } from './ciclo/vida/vida.component';
     ReceiverComponent,
     ParentComponent,
     ChildComponent,
-    VidaComponent
+    VidaComponent,
+    PipesComponent,
+    CustompipePipe,
+    DirectiveaDirective,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [
