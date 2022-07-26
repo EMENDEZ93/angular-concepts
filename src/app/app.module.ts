@@ -24,6 +24,7 @@ import { PipesComponent } from './pipes/pipes/pipes.component';
 import { CustompipePipe } from './pipes/custompipe.pipe';
 import { DirectiveaDirective } from './directives/directivea.directive';
 import { DirectiveComponent } from './directives/directive/directive.component';
+import { GetserviceComponent } from './http/getservice/getservice.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { DirectiveComponent } from './directives/directive/directive.component';
     PipesComponent,
     CustompipePipe,
     DirectiveaDirective,
-    DirectiveComponent
+    DirectiveComponent,
+    GetserviceComponent
   ],
   imports: [
     BrowserModule,

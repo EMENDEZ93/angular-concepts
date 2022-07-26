@@ -5,6 +5,7 @@ import { VidaComponent } from './ciclo/vida/vida.component';
 import { ClicksComponent } from './clicks/clicks.component';
 import { DirectiveComponent } from './directives/directive/directive.component';
 import { DisabledsComponent } from './disableds/disableds.component';
+import { GetserviceComponent } from './http/getservice/getservice.component';
 import { SenderComponent } from './inputs/sender/sender.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgforComponent } from './ngfor/ngfor.component';
@@ -86,6 +87,10 @@ const routes: Routes = [
   {
     path:'directive',
     component: DirectiveComponent
+  },
+  {
+    path:'http-get',
+    component: GetserviceComponent
   }
 ];
 
